@@ -76,7 +76,7 @@ body {
     justify-content: flex-start;
 }
 .container header nav .post-here p{
-    font-size: calc(1em + 1vw);
+    font-size: calc(1.2em + 1.2vw);
     padding: 0 0 0 2%;
 }
 .container header nav .logo {
@@ -139,7 +139,7 @@ h2 {
 }
 .main-content .top .description p {
     font-size: calc(1em + 1vw);
-    line-height: 2.25rem;
+    line-height: 2.5rem;
     padding: 0 0 5% 0;
     text-align: center;
 }
@@ -168,7 +168,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     font-size: calc(1em + 1vw);
-    line-height: 2.25rem;
+    line-height: 2.5rem;
     text-align: center;
     padding: 0 2% 0 0;
 }
@@ -190,7 +190,7 @@ h2 {
     cursor: pointer;
     text-decoration: none;
 }
-.main-content .bottom h3 {
+.main-content .bottom p {
     font-size: calc(.75em + .75vw);
     line-height: 3.5rem;
 }
@@ -301,5 +301,67 @@ footer p {
     }
     .container header nav .nav-links {
         font-size: calc(.9em + .9vw);
+    }
+    h1 {
+        margin: 7.5% 0 0 0;
+    }
+    h2 {
+        margin: 2.5% 0 0 0;
+    }
+    .main-content .top {
+        margin: 7.5% 0 0 0;
+    }
+    .main-content .top .description p {
+        line-height: 1.75rem;
+    }
+    .main-content .top .description button {
+        width: 200px;
+    }
+    .main-content .mid {
+        margin: 5% 0 0 0;
+    }
+    .main-content .mid p {
+        line-height: 1.75rem;
+    }
+    .main-content .mid img {
+        width: 55%;
+    }
+    .main-content .bottom {
+        margin: 5% 0 0 0;
+    }
+    .main-content .bottom p {
+        font-size: calc(.8em + .8vw);
+    }
+    footer p{
+        margin: 2.5% 0 0 0;
+    }
+}
+@media (min-width: 801px) and (max-width: 1024px) {
+    .container header {
+        height: 10%;
+    }
+    .container header nav .post-here {
+        font-size: calc(.7em + .7vw);
+    }
+    .container header nav .nav-links {
+        font-size: calc(.8em + .8vw);
+    }
+    h1 {
+        margin: 5% 0 0 0;
+    }
+    h2 {
+        margin: 2.5% 0 0 0;
+    }
+    .main-content .top {
+        margin: 5% 0 0 0;
+    }
+    .main-content .mid {
+        margin: 2.5% 0 0 0;
+    }
+    .main-content .bottom {
+        margin: 2.5% 0 0 0;
+    }
+    footer p{
+        margin: 1.5% 0 0 0;
     }
 }
